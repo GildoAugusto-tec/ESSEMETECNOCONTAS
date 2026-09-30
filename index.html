@@ -206,13 +206,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
-                    <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
                     <li class="nav-item"><a class="nav-link" href="#aplicativos">Aplicativos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
                     <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contactos">Contato</a></li>
                     <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
-                        <!-- Botão reduzido -->
                         <a class="btn btn-dourado btn-sm rounded-pill px-3 py-1" href="#aplicativos"><i class="fas fa-download me-1"></i>Baixar Apps</a>
                     </li>
                 </ul>
@@ -249,83 +248,91 @@
             <h4 class="section-subtitle">Utilitários</h4>
             <div class="row g-4 mb-5 justify-content-center">
                 
+                <!-- Carteira Digital Lite -->
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="card app-card">
                         <img src="iconlite.png" alt="Minha Carteira Digital Lite">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title fs-6">Minha Carteira Digital Lite</h5>
-<p class="card-text flex-grow-1">Organize e armazene documentos pessoais.</p>
-
-<!-- 1. Botão de Download Corrigido (agora é um link <a> com estilo de botão) -->
-<a href="https://github.com/GildoAugusto-tec/ESSEMETECNOCONTAS/releases/download/v1.0/carteiraDigitalLite.apk" 
-   class="btn btn-download rounded-pill mt-auto" 
-   download>
-   <i class="fas fa-download"></i> Download
-</a>
-
-<!-- 2. Botão Ver funcionamento (coloque o link do vídeo ou demonstração aqui) -->
-<a href=""#video-confidente"" class="btn-saiba-mais">
-   <i class="fas fa-play-circle"></i> Ver funcionamento
-</a>
+                            <p class="card-text flex-grow-1">Organize e armazene documentos pessoais.</p>
+                            <a href="https://github.com/GildoAugusto-tec/ESSEMETECNOCONTAS/releases/download/v1.0/carteiraDigitalLite.apk" 
+                               class="btn btn-download rounded-pill mt-auto" 
+                               download>
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                            <a href="#video-carteira-lite" class="btn-saiba-mais">
+                                <i class="fas fa-play-circle"></i> Ver funcionamento
+                            </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Carteira Digital Premium -->
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="card app-card">
                         <img src="iconpremium.png" alt="Minha Carteira Digital Premium">
                         <div class="card-body d-flex flex-column">
-                          <h5 class="card-title fs-6">Minha Carteira Digital Premium</h5>
-<p class="card-text flex-grow-1">Recursos avançados e Mais completo.</p>
-
-<!-- 1. Botão de Download Corrigido com o link do carteiraPremium.apk -->
-<a href="https://github.com/GildoAugusto-tec/ESSEMETECNOCONTAS/releases/download/V1/carteiraPremium.apk" 
-   class="btn btn-download rounded-pill mt-auto" 
-   download>
-   <i class="fas fa-download"></i> Download
-</a>
-
-<!-- 2. Botão Ver funcionamento (adicione o link do vídeo de demonstração) -->
-<a href="#video-confidente" class="btn-saiba-mais">
-   <i class="fas fa-play-circle"></i> Ver funcionamento
-</a>
+                            <h5 class="card-title fs-6">Minha Carteira Digital Premium</h5>
+                            <p class="card-text flex-grow-1">Recursos avançados e Mais completo.</p>
+                            <a href="https://github.com/GildoAugusto-tec/ESSEMETECNOCONTAS/releases/download/V1/carteiraPremium.apk" 
+                               class="btn btn-download rounded-pill mt-auto" 
+                               download>
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                            <a href="#video-carteira-premium" class="btn-saiba-mais">
+                                <i class="fas fa-play-circle"></i> Ver funcionamento
+                            </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Confidente -->
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="card app-card">
                         <img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" alt="Confidente">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title fs-6">Confidente</h5>
                             <p class="card-text flex-grow-1">Gestão pessoal completa financeira.</p>
-                            <button class="btn btn-download rounded-pill mt-auto"><i class="fas fa-download"></i> Download</button>
-                            <a href="#video-confidente" class="btn-saiba-mais"><i class="fas fa-play-circle"></i> Ver funcionamento</a>
+                            <a href="#" class="btn btn-download rounded-pill mt-auto" download>
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                            <a href="#video-confidente" class="btn-saiba-mais">
+                                <i class="fas fa-play-circle"></i> Ver funcionamento
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Nome atualizado: Comida do mês -->
+                <!-- Comida do mês -->
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="card app-card">
                         <img src="https://cdn-icons-png.flaticon.com/512/1830/1830839.png" alt="Comida do mês">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title fs-6">Comida do mês</h5>
                             <p class="card-text flex-grow-1">Gestão inteligente de compras de cozinha.</p>
-                            <button class="btn btn-download rounded-pill mt-auto"><i class="fas fa-download"></i> Download</button>
-                            <a href="#video-comida-mes" class="btn-saiba-mais"><i class="fas fa-play-circle"></i> Ver funcionamento</a>
+                            <a href="#" class="btn btn-download rounded-pill mt-auto" download>
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                            <a href="#video-comida-mes" class="btn-saiba-mais">
+                                <i class="fas fa-play-circle"></i> Ver funcionamento
+                            </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Amigo do Prof -->
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="card app-card">
                         <img src="https://cdn-icons-png.flaticon.com/512/2097/2097068.png" alt="Amigo do Professor">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title fs-6">Amigo do Prof</h5>
                             <p class="card-text flex-grow-1">Auxilia na correção de provas e enunciados.</p>
-                            <button class="btn btn-download rounded-pill mt-auto"><i class="fas fa-download"></i> Download</button>
-                            <a href="#video-amigo-prof" class="btn-saiba-mais"><i class="fas fa-play-circle"></i> Ver funcionamento</a>
+                            <a href="#" class="btn btn-download rounded-pill mt-auto" download>
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                            <a href="#video-amigo-prof" class="btn-saiba-mais">
+                                <i class="fas fa-play-circle"></i> Ver funcionamento
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -339,22 +346,18 @@
                         <img src="logokmgest.png" alt="KambaGest Mobile" style="max-width: 80px; margin:0 15px 0 0;">
                         <div class="card-body p-0">
                             <h5 class="card-title text-start fs-6">1. KambaGest Mobile</h5>
-<p class="card-text text-start fs-7">Controle de entradas e saídas para pequenos empreendedores.</p>
-<div class="d-flex gap-2 align-items-center">
-    <!-- 1. Botão de Download Corrigido (com o link do kambagest.defnit.apk) -->
-   <a href="https://github.com/GildoAugusto-tec/ESSEMETECNOCONTAS/releases/download/v.1.0/kambagest.defnit.apk" 
-   class="btn btn-download rounded-pill btn-sm" 
-   download>
-   <i class="fas fa-download"></i> Download
-</a>
-
-    <!-- 2. Botão Ver funcionamento (adicione o link do vídeo de demonstração) -->
-    <a href="LINK_DO_SEU_VIDEO_OU_DEMO" 
-       class="btn-saiba-mais m-0 p-0 text-start w-auto" 
-       style="font-size: 0.8rem;">
-       <i class="fas fa-play-circle"></i> Ver funcionamento
-    </a>
-</div>
+                            <p class="card-text text-start fs-7">Controle de entradas e saídas para pequenos empreendedores.</p>
+                            <div class="d-flex gap-2 align-items-center">
+                                <a href="https://github.com/GildoAugusto-tec/ESSEMETECNOCONTAS/releases/download/v.1.0/kambagest.defnit.apk" 
+                                   class="btn btn-download rounded-pill btn-sm" 
+                                   download>
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                                <a href="#video-kambagest" 
+                                   class="btn-saiba-mais m-0 p-0 text-start w-auto" 
+                                   style="font-size: 0.8rem;">
+                                    <i class="fas fa-play-circle"></i> Ver funcionamento
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -364,23 +367,19 @@
                     <div class="card app-card d-flex flex-row align-items-center p-3">
                         <img src="logomgcumbo.png" alt="Mãe Grande do Cumbú" style="max-width: 80px; margin:0 15px 0 0;">
                         <div class="card-body p-0">
-                           <h5 class="card-title text-start fs-6">2. Mãe Grande do Cumbú</h5>
-<p class="card-text text-start fs-7">Gestão de saídas e gastos do serviço de táxi motorizado.</p>
-<div class="d-flex gap-2 align-items-center">
-    <!-- 1. Botão de Download Corrigido (com o link do MaegraCumbu.apk) -->
-   <a href="https://github.com/GildoAugusto-tec/ESSEMETECNOCONTAS/releases/download/v1.0.0/MaegraCumbu.apk" 
-   class="btn btn-download rounded-pill btn-sm" 
-   download>
-   <i class="fas fa-download"></i> Download
-</a>
-
-    <!-- 2. Botão Ver funcionamento (adicione o link do vídeo de demonstração) -->
-    <a href="LINK_DO_SEU_VIDEO_OU_DEMO" 
-       class="btn-saiba-mais m-0 p-0 text-start w-auto" 
-       style="font-size: 0.8rem;">
-       <i class="fas fa-play-circle"></i> Ver funcionamento
-    </a>
-</div>
+                            <h5 class="card-title text-start fs-6">2. Mãe Grande do Cumbú</h5>
+                            <p class="card-text text-start fs-7">Gestão de saídas e gastos do serviço de táxi motorizado.</p>
+                            <div class="d-flex gap-2 align-items-center">
+                                <a href="https://github.com/GildoAugusto-tec/ESSEMETECNOCONTAS/releases/download/v1.0.0/MaegraCumbu.apk" 
+                                   class="btn btn-download rounded-pill btn-sm" 
+                                   download>
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                                <a href="#video-mae-grande" 
+                                   class="btn-saiba-mais m-0 p-0 text-start w-auto" 
+                                   style="font-size: 0.8rem;">
+                                    <i class="fas fa-play-circle"></i> Ver funcionamento
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -432,8 +431,8 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- Vídeo 4 (Nome Atualizado) -->
+
+                <!-- Vídeo 4 -->
                 <div class="col-lg-3 col-md-4 col-sm-6" id="video-comida-mes">
                     <div class="card border-0 shadow-sm bg-white rounded-3 overflow-hidden">
                         <div class="ratio ratio-16x9">
@@ -523,7 +522,7 @@
                         <li class="mb-4"><i class="fas fa-map-marker-alt me-2" style="color: var(--dourado);"></i> Luanda, Angola</li>
                     </ul>
                     <!-- Botão WhatsApp Grande -->
-                    <a href="https://wa.me/244956578410" class="btn w-100 text-white rounded-3 d-flex align-items-center justify-content-center p-3" style="background-color: var(--roxo-escuro);">
+                    <a href="https://wa.me/244956578410" class="btn w-100 text-white rounded-3 d-flex align-items-center justify-content-center p-3" style="background-color: var(--roxo-escuro);" target="_blank">
                         <i class="fab fa-whatsapp fs-2 me-3" style="color: #25D366;"></i>
                         <div class="text-start">
                             <small class="d-block lh-1">Fale connosco pelo WhatsApp</small>
@@ -563,7 +562,7 @@
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- Script para animação de scroll dos Aplicativos (Aparecer um a um) -->
+    <!-- Script para animação de scroll dos Aplicativos -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const cards = document.querySelectorAll('.app-card');
